@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
 
 $font-stack: 'Roboto', sans-serif;
+$text-color: #15141A;
+$primary-color: #aaaebb;
+$background-color: #ededf0;
 
 * {
   box-sizing: border-box;
@@ -10,4 +13,19 @@ $font-stack: 'Roboto', sans-serif;
 
 body {
   font-family: $font-stack;
+  background-color: $background-color;
+  background: url('../assets/images/wood.jpg');
+}
+
+#content {
+  max-height: 100vh;
+  width: 900px;
+  margin: auto;
+  color: $text-color;
+}
+
+.header {
+  padding: 21px 58px;
+  background-color: $primary-color;
+  display: flex;
 }
