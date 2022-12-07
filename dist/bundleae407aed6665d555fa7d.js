@@ -25,9 +25,10 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/wood.jpg */ "./src/assets/images/wood.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@400;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background-color: #ededf0;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  max-height: 100vh;\n  width: 900px;\n  margin: auto;\n  color: #15141A;\n}\n\n.header {\n  padding: 21px 58px;\n  background-color: #aaaebb;\n  display: flex;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AAOA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AALF;;AAQA;EACE,iCAZW;EAaX,yBAViB;EAWjB,mDAAA;AALF;;AAQA;EACE,iBAAA;EACA,YAAA;EACA,YAAA;EACA,cApBW;AAeb;;AAQA;EACE,kBAAA;EACA,yBAxBc;EAyBd,aAAA;AALF","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$text-color: #15141A;\r\n$primary-color: #aaaebb;\r\n$background-color: #ededf0;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background-color: $background-color;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  max-height: 100vh;\r\n  width: 900px;\r\n  margin: auto;\r\n  color: $text-color;\r\n}\r\n\r\n.header {\r\n  padding: 21px 58px;\r\n  background-color: $primary-color;\r\n  display: flex;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  border: 2px solid red;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader {\n  max-height: 20vh;\n  display: flex;\n  border: 2px solid yellow;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Merienda\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\n.main {\n  background-color: transparent;\n  border: 2px solid blue;\n  padding: 21px 58px;\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  border: 2px solid green;\n  height: 5rem;\n  color: #fff;\n}\nfooter a {\n  color: #fff;\n  font-size: large;\n  position: relative;\n  bottom: 1rem;\n  left: 1rem;\n  display: flex;\n  flex-direction: column;\n}\nfooter .tripadvisor {\n  height: 1.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AASA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AANF;;AASA;EACE,iCAbW;EAcX,mDAAA;AANF;;AASA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WApBW;EAqBX,qBAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AANF;;AASA;EACE,gBAAA;EACA,aAAA;EACA,wBAAA;EACA,kBAAA;EACA,sBA9BiB;EA+BjB,8BAAA;AANF;AAQE;EACE,WApCS;EAqCT,mCAtCa;EAuCb,iBAAA;AANJ;AAYI;EACE,6BAAA;EACA,YAAA;EACA,WA/CO;EAgDP,YAAA;EACA,gBAAA;EACA,0BAAA;AAVN;AAYM;EACE,eAAA;EACA,2BAAA;AAVR;;AAkBA;EACE,6BAAA;EACA,sBAAA;EACA,kBAAA;AAfF;;AAkBA;EACE,aAAA;EACA,qBAAA;EACA,sBArEiB;EAsEjB,uBAAA;EACA,YAAA;EACA,WA1EW;AA2Db;AAiBE;EACE,WA7ES;EA8ET,gBAAA;EACA,kBAAA;EACA,YAAA;EACA,UAAA;EACA,aAAA;EACA,sBAAA;AAfJ;AAkBE;EACE,cAAA;AAhBJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@400;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Merienda', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  border: 2px solid red;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader {\r\n  max-height: 20vh;\r\n  display: flex;\r\n  border: 2px solid yellow;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n\r\n  }\r\n\r\n  .nav {\r\n\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n\r\n  \r\n}\r\n\r\n.main {\r\n  background-color: transparent;\r\n  border: 2px solid blue;\r\n  padding: 21px 58px;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  border: 2px solid green;\r\n  height: 5rem;\r\n  color: $text-color;\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: large;\r\n    position: relative;\r\n    bottom: 1rem;\r\n    left: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 1.5rem;\r\n  }\r\n\r\n\r\n}\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -551,13 +552,13 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/assets/images/logo.png":
-/*!************************************!*\
-  !*** ./src/assets/images/logo.png ***!
-  \************************************/
+/***/ "./src/assets/icons/tripadvisor.png":
+/*!******************************************!*\
+  !*** ./src/assets/icons/tripadvisor.png ***!
+  \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/logo.png";
+module.exports = __webpack_require__.p + "images/tripadvisor.png";
 
 /***/ }),
 
@@ -713,28 +714,95 @@ var __webpack_exports__ = {};
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
-/* harmony import */ var _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/logo.png */ "./src/assets/images/logo.png");
+/* harmony import */ var _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/icons/tripadvisor.png */ "./src/assets/icons/tripadvisor.png");
 
 
-// import loadHomePage from './home';
+
 
 const contentContainer = document.querySelector("#content");
 
 const createHeader = () => {
-  const header = document.createElement("div");
+  const header = document.createElement("header");
   header.classList.add("header");
   contentContainer.appendChild(header);
 
-  const logo = document.createElement("img");
-  logo.classList.add("logo");
-  logo.src = _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_1__;
-  logo.alt = "logo";
-  header.appendChild(logo);
+  const restaurantName = document.createElement("h1");
+  restaurantName.classList.add("h1");
+  restaurantName.textContent = "LUCERRO";
+  header.appendChild(restaurantName);
 
-  
+  header.appendChild(createNav());
+
+  return header;
 };
 
+const createNav = () => {
+  const nav = document.createElement("nav");
+
+  const homeBtn = document.createElement("button");
+  homeBtn.classList.add("nav-button");
+  homeBtn.textContent = "Home";
+  nav.appendChild(homeBtn);
+
+  const menuBtn = document.createElement("button");
+  menuBtn.classList.add("nav-button");
+  menuBtn.textContent = "Menu";
+  nav.appendChild(menuBtn);
+
+  const galleryBtn = document.createElement("button");
+  galleryBtn.classList.add("nav-button");
+  galleryBtn.textContent = "Gallery";
+  nav.appendChild(galleryBtn);
+
+  const contactBtn = document.createElement("button");
+  contactBtn.classList.add("nav-button");
+  contactBtn.textContent = "Contact";
+  nav.appendChild(contactBtn);
+
+  return nav;
+}
+
+const createMain = () => {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  contentContainer.appendChild(main);
+
+  return main;
+}
+
+const createFooter = () => {
+  const footer = document.createElement("footer");
+  footer.classList.add("footer");
+  contentContainer.appendChild(footer);
+
+  const fbLink = document.createElement("a");
+  fbLink.href = "#!";
+  const fbIcon = document.createElement("i");
+  fbIcon.classList.add("fab");
+  fbIcon.classList.add("fa-facebook");
+  fbLink.appendChild(fbIcon);
+  footer.appendChild(fbLink);
+
+  const igLink = document.createElement("a");
+  igLink.href = "#!";
+  const igIcon = document.createElement("i");
+  igIcon.classList.add("fab");
+  igIcon.classList.add("fa-instagram");
+  igLink.appendChild(igIcon);
+  footer.appendChild(igLink);
+
+  const tripadvisorIcon = document.createElement("img");
+  tripadvisorIcon.src = _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__;
+  tripadvisorIcon.classList.add("tripadvisor");
+  footer.appendChild(tripadvisorIcon);
+
+
+  return footer;
+}
+
 createHeader();
+createMain();
+createFooter();
 
 
 
@@ -753,4 +821,4 @@ createHeader();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlec8ef940f5c770c4f53d6.js.map
+//# sourceMappingURL=bundleae407aed6665d555fa7d.js.map
