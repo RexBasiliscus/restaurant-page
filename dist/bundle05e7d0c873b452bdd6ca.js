@@ -23,12 +23,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/wood.jpg */ "./src/assets/images/wood.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/images/black-slate.jpg */ "./src/assets/images/black-slate.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap);"]);
-___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@400;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap);"]);
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.cdnfonts.com/css/callie-chalk-font);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  border: 2px solid red;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader {\n  max-height: 20vh;\n  display: flex;\n  border: 2px solid yellow;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Merienda\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\n.main {\n  background-color: transparent;\n  border: 2px solid blue;\n  padding: 21px 58px;\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  border: 2px solid green;\n  height: 5rem;\n  color: #fff;\n}\nfooter a {\n  color: #fff;\n  font-size: large;\n  position: relative;\n  bottom: 1rem;\n  left: 1rem;\n  display: flex;\n  flex-direction: column;\n}\nfooter .tripadvisor {\n  height: 1.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AASA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AANF;;AASA;EACE,iCAbW;EAcX,mDAAA;AANF;;AASA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WApBW;EAqBX,qBAAA;EACA,aAAA;EACA,sBAAA;EACA,8BAAA;AANF;;AASA;EACE,gBAAA;EACA,aAAA;EACA,wBAAA;EACA,kBAAA;EACA,sBA9BiB;EA+BjB,8BAAA;AANF;AAQE;EACE,WApCS;EAqCT,mCAtCa;EAuCb,iBAAA;AANJ;AAYI;EACE,6BAAA;EACA,YAAA;EACA,WA/CO;EAgDP,YAAA;EACA,gBAAA;EACA,0BAAA;AAVN;AAYM;EACE,eAAA;EACA,2BAAA;AAVR;;AAkBA;EACE,6BAAA;EACA,sBAAA;EACA,kBAAA;AAfF;;AAkBA;EACE,aAAA;EACA,qBAAA;EACA,sBArEiB;EAsEjB,uBAAA;EACA,YAAA;EACA,WA1EW;AA2Db;AAiBE;EACE,WA7ES;EA8ET,gBAAA;EACA,kBAAA;EACA,YAAA;EACA,UAAA;EACA,aAAA;EACA,sBAAA;AAfJ;AAkBE;EACE,cAAA;AAhBJ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@400;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Merienda', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  border: 2px solid red;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader {\r\n  max-height: 20vh;\r\n  display: flex;\r\n  border: 2px solid yellow;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n\r\n  }\r\n\r\n  .nav {\r\n\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n\r\n  \r\n}\r\n\r\n.main {\r\n  background-color: transparent;\r\n  border: 2px solid blue;\r\n  padding: 21px 58px;\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  border: 2px solid green;\r\n  height: 5rem;\r\n  color: $text-color;\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: large;\r\n    position: relative;\r\n    bottom: 1rem;\r\n    left: 1rem;\r\n    display: flex;\r\n    flex-direction: column;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 1.5rem;\r\n  }\r\n\r\n\r\n}\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader, footer {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nheader {\n  max-height: 20vh;\n  display: flex;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\n.main {\n  background-color: transparent;\n  padding: 1rem 2rem;\n  display: flex;\n  flex-direction: column;\n}\n.main .wrapper {\n  display: flex;\n  margin-bottom: 2rem;\n  justify-content: space-around;\n}\n.main .wrapper .bar-img {\n  height: 20rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .wrapper .catchphrase {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .second-wrapper {\n  display: flex;\n  flex-direction: column;\n  margin-top: 1rem;\n}\n.main .second-wrapper::before {\n  content: \"About Us\";\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n}\n.main .second-wrapper .about-us {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 1rem 4rem;\n  line-height: 2.3;\n}\n.main .second-wrapper .about-us::before {\n  content: \"Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.\";\n}\n.main .second-wrapper .interior-img {\n  margin: 1rem auto;\n  max-width: 560px;\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  height: 5rem;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\nfooter .social {\n  margin: auto 3rem;\n  display: flex;\n}\nfooter a {\n  color: #fff;\n  font-size: 1.8rem;\n  padding: 0.3rem;\n}\nfooter .tripadvisor {\n  height: 2.8rem;\n  position: relative;\n  bottom: 0.15rem;\n}\nfooter .tripadvisor:hover {\n  cursor: pointer;\n}\nfooter .copyright {\n  display: flex;\n  align-items: center;\n  margin: auto 2rem;\n}\nfooter .copyright .logo {\n  height: 3rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AASA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AANF;;AASA;EACE,iCAbW;EAcX,mDAAA;AANF;;AASA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WApBW;EAqBX,aAAA;EACA,sBAAA;EACA,8BAAA;AANF;;AASA;EACE,mDAAA;AANF;;AASA;EACE,gBAAA;EACA,aAAA;EACA,kBAAA;EACA,sBAhCiB;EAiCjB,8BAAA;AANF;AAQE;EACE,WAtCS;EAuCT,4CAxCa;EAyCb,iBAAA;AANJ;AAWI;EACE,6BAAA;EACA,YAAA;EACA,WAhDO;EAiDP,YAAA;EACA,gBAAA;EACA,0BAAA;AATN;AAWM;EACE,eAAA;EACA,2BAAA;AATR;;AAiBA;EACE,6BAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;AAdF;AAgBE;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;AAdJ;AAgBI;EACE,aAAA;EACA,aAAA;EACA,YAAA;AAdN;AAiBI;EACE,4CAlFW;EAmFX,eAAA;EACA,aAAA;EACA,YAAA;AAfN;AAmBE;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;AAjBJ;AAmBM;EACE,mBAAA;EACA,4CAhGS;EAiGT,eAAA;EACA,iBAAA;EACA,kBAAA;AAjBR;AAoBI;EACE,4CAvGW;EAwGX,WAvGO;EAwGP,iBAAA;EACA,kBAAA;EACA,gBAAA;AAlBN;AAoBM;EACE,ydAAA;AAlBR;AAsBI;EACE,iBAAA;EACA,gBAAA;AApBN;;AA0BA;EACE,aAAA;EACA,qBAAA;EACA,sBA1HiB;EA2HjB,YAAA;EACA,WA9HW;EA+HX,aAAA;EACA,8BAAA;AAvBF;AAyBE;EACE,iBAAA;EACA,aAAA;AAvBJ;AA0BE;EACE,WAxIS;EAyIT,iBAAA;EACA,eAAA;AAxBJ;AA2BE;EACE,cAAA;EACA,kBAAA;EACA,eAAA;AAzBJ;AA2BI;EACE,eAAA;AAzBN;AA6BE;EACE,aAAA;EACA,mBAAA;EACA,iBAAA;AA3BJ;AA6BI;EACE,YAAA;AA3BN","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Callie Chalk Font', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader, footer {\r\n  background: url('../assets/images/black-slate.jpg');\r\n}\r\n\r\nheader {\r\n  max-height: 20vh;\r\n  display: flex;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n\r\n  }\r\n\r\n  .nav {\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n\r\n  \r\n}\r\n\r\n.main {\r\n  background-color: transparent;\r\n  padding: 1rem 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  .wrapper {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    justify-content: space-around;\r\n\r\n    .bar-img {\r\n      height: 20rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n\r\n    .catchphrase {\r\n      font-family: $highlight-font;\r\n      font-size: 2rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n  }\r\n\r\n  .second-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin-top: 1rem;\r\n\r\n      &::before {\r\n        content: 'About Us';\r\n        font-family: $highlight-font;\r\n        font-size: 2rem;\r\n        font-weight: bold;\r\n        text-align: center;\r\n      }\r\n\r\n    .about-us {\r\n      font-family: $highlight-font;\r\n      color: $text-color;\r\n      font-size: 1.2rem;\r\n      padding: 1rem 4rem;\r\n      line-height: 2.3;\r\n\r\n      &::before {\r\n        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'\r\n      }\r\n    }\r\n\r\n    .interior-img {\r\n      margin: 1rem auto;\r\n      max-width: 560px;\r\n    }\r\n  }\r\n  \r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  height: 5rem;\r\n  color: $text-color;\r\n  display: flex;\r\n  justify-content: space-between;\r\n\r\n  .social {\r\n    margin: auto 3rem;\r\n    display: flex;\r\n  }\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: 1.8rem;\r\n    padding: 0.3rem;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 2.8rem;\r\n    position: relative;\r\n    bottom: 0.15rem;\r\n\r\n    &:hover {\r\n      cursor: pointer;\r\n    }\r\n  }\r\n\r\n  .copyright {\r\n    display: flex;\r\n    align-items: center;\r\n    margin: auto 2rem;\r\n\r\n    .logo {\r\n      height: 3rem;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -552,6 +554,61 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/home.js":
+/*!*********************!*\
+  !*** ./src/home.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _assets_images_interior2_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/interior2.jpg */ "./src/assets/images/interior2.jpg");
+/* harmony import */ var _assets_images_bar1_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/bar1.jpg */ "./src/assets/images/bar1.jpg");
+
+
+
+
+const createMain = () => {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  contentContainer.appendChild(main);
+
+  const firstWrapper = document.createElement("div");
+  firstWrapper.classList.add("wrapper");
+  main.appendChild(firstWrapper);
+
+      const barImg = document.createElement("img");
+      barImg.src = _assets_images_bar1_jpg__WEBPACK_IMPORTED_MODULE_1__;
+      barImg.classList.add("bar-img");
+      firstWrapper.appendChild(barImg);
+
+      const catchphrase = document.createElement("p");
+      catchphrase.classList.add("catchphrase");
+      catchphrase.textContent = `Simple, but refined`;
+      firstWrapper.appendChild(catchphrase);
+
+  const secondWrapper = document.createElement("div");
+  secondWrapper.classList.add("second-wrapper");
+  main.appendChild(secondWrapper);
+
+      const aboutUs = document.createElement("p");
+      aboutUs.classList.add("about-us");
+      secondWrapper.appendChild(aboutUs);
+
+      const interiorImg = document.createElement("img");
+      interiorImg.src = _assets_images_interior2_jpg__WEBPACK_IMPORTED_MODULE_0__;
+      interiorImg.classList.add("interior-img");
+      secondWrapper.appendChild(interiorImg);
+
+  return main;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMain);
+
+/***/ }),
+
 /***/ "./src/assets/icons/tripadvisor.png":
 /*!******************************************!*\
   !*** ./src/assets/icons/tripadvisor.png ***!
@@ -559,6 +616,46 @@ module.exports = styleTagTransform;
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "images/tripadvisor.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/bar1.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/bar1.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/bar1.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/black-slate.jpg":
+/*!*******************************************!*\
+  !*** ./src/assets/images/black-slate.jpg ***!
+  \*******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/black-slate.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/interior2.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/interior2.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/interior2.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/logo.png":
+/*!************************************!*\
+  !*** ./src/assets/images/logo.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/logo.png";
 
 /***/ }),
 
@@ -715,6 +812,10 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
 /* harmony import */ var _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/icons/tripadvisor.png */ "./src/assets/icons/tripadvisor.png");
+/* harmony import */ var _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/logo.png */ "./src/assets/images/logo.png");
+/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home */ "./src/home.js");
+
+
 
 
 
@@ -762,46 +863,57 @@ const createNav = () => {
   return nav;
 }
 
-const createMain = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-
-  return main;
-}
-
 const createFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
   contentContainer.appendChild(footer);
 
-  const fbLink = document.createElement("a");
-  fbLink.href = "#!";
-  const fbIcon = document.createElement("i");
-  fbIcon.classList.add("fab");
-  fbIcon.classList.add("fa-facebook");
-  fbLink.appendChild(fbIcon);
-  footer.appendChild(fbLink);
+    const socialMedia = document.createElement("div");
+    socialMedia.classList.add("social");
+    footer.appendChild(socialMedia);
 
-  const igLink = document.createElement("a");
-  igLink.href = "#!";
-  const igIcon = document.createElement("i");
-  igIcon.classList.add("fab");
-  igIcon.classList.add("fa-instagram");
-  igLink.appendChild(igIcon);
-  footer.appendChild(igLink);
+      const fbLink = document.createElement("a");
+      fbLink.href = "#!";
+      const fbIcon = document.createElement("i");
+      fbIcon.classList.add("fab");
+      fbIcon.classList.add("fa-facebook");
+      fbLink.appendChild(fbIcon);
+      socialMedia.appendChild(fbLink);
 
-  const tripadvisorIcon = document.createElement("img");
-  tripadvisorIcon.src = _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__;
-  tripadvisorIcon.classList.add("tripadvisor");
-  footer.appendChild(tripadvisorIcon);
+      const igLink = document.createElement("a");
+      igLink.href = "#!";
+      const igIcon = document.createElement("i");
+      igIcon.classList.add("fab");
+      igIcon.classList.add("fa-instagram");
+      igLink.appendChild(igIcon);
+      socialMedia.appendChild(igLink);
+
+      const tripadvisorIcon = document.createElement("img");
+      tripadvisorIcon.src = _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__;
+      tripadvisorIcon.href = "#!";
+      tripadvisorIcon.classList.add("tripadvisor");
+      socialMedia.appendChild(tripadvisorIcon);
+
+
+  const copyright = document.createElement("div");
+  copyright.classList.add("copyright");
+  footer.appendChild(copyright);
+
+    const logo = document.createElement("img");
+    logo.src = _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_2__;
+    logo.classList.add("logo");
+    copyright.appendChild(logo);
+
+    const crText = document.createElement("p");
+    crText.textContent = `Copyright © RexBasiliscus 2022`;
+    copyright.appendChild(crText);
 
 
   return footer;
 }
 
 createHeader();
-createMain();
+(0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
 createFooter();
 
 
@@ -821,4 +933,4 @@ createFooter();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundleae407aed6665d555fa7d.js.map
+//# sourceMappingURL=bundle05e7d0c873b452bdd6ca.js.map

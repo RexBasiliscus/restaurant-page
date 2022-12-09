@@ -1,10 +1,11 @@
 import './styles/main.scss';
 import tripadvisor from './assets/icons/tripadvisor.png';
 import siteLogo from './assets/images/logo.png';
-import interior from './assets/images/interior1.jpg';
-import bar from './assets/images/bar1.jpg';
+import loadHome from './home';
+
 
 const contentContainer = document.querySelector("#content");
+const navButtons = document.querySelector("nav-button");
 
 const createHeader = () => {
   const header = document.createElement("header");
@@ -26,6 +27,7 @@ const createNav = () => {
 
   const homeBtn = document.createElement("button");
   homeBtn.classList.add("nav-button");
+  homeBtn.classList.add("active");
   homeBtn.textContent = "Home";
   nav.appendChild(homeBtn);
 
@@ -45,37 +47,6 @@ const createNav = () => {
   nav.appendChild(contactBtn);
 
   return nav;
-}
-
-const createMain = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-
-  const firstWrapper = document.createElement("div");
-  firstWrapper.classList.add("wrapper");
-  main.appendChild(firstWrapper);
-
-      const barImg = document.createElement("img");
-      barImg.src = bar;
-      barImg.classList.add("bar-img");
-      firstWrapper.appendChild(barImg);
-
-      const catchphrase = document.createElement("p");
-      catchphrase.classList.add("catchphrase");
-      catchphrase.textContent = `Simple, but refined`;
-      firstWrapper.appendChild(catchphrase);
-
-    const interiorImg = document.createElement("img");
-    interiorImg.src = interior;
-    interiorImg.classList.add("interior-img");
-    main.appendChild(interiorImg);
-
-    const aboutUs = document.createElement("p");
-    aboutUs.classList.add("about-us");
-    main.appendChild(aboutUs);
-
-  return main;
 }
 
 const createFooter = () => {
@@ -127,9 +98,19 @@ const createFooter = () => {
   return footer;
 }
 
-createHeader();
-createMain();
-createFooter();
+
+function loadPage() {
+  createHeader();
+  loadHome();
+  createFooter();
+}
+
+loadPage();
+
+// navButtons.forEach((navButton) => navButton.addEventListener('click', (e) => {
+//   if(e.target.classList.contains("active")) return;
+//   e.target.classList.add("active");
+// }) )
 
 
 

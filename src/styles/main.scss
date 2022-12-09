@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@400;700&family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
-
-$font-stack: 'Roboto', sans-serif;
-$highlight-font: 'Merienda', sans-serif;
-$text-color: #fff;
-$highlight-color: #988349;
-$background-color: #000;
+@import 'config';
+@import 'home';
+@import 'menu';
+@import 'gallery';
+@import 'contact';
 
 * {
   box-sizing: border-box;
@@ -29,7 +26,12 @@ body {
   justify-content: space-between;
 }
 
+header, footer {
+  background: url('../assets/images/black-slate.jpg');
+}
+
 header {
+  min-height: 7rem;
   max-height: 20vh;
   display: flex;
   padding: 2rem 1rem;
@@ -40,7 +42,6 @@ header {
     color: $text-color;
     font-family: $highlight-font;
     font-weight: bold;
-
   }
 
   .nav {
@@ -58,42 +59,6 @@ header {
       }
     }
   }
-
-  
-}
-
-.main {
-  background-color: transparent;
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-
-  .wrapper {
-
-
-    .bar-img {
-      width: 40%;
-    }
-
-    .catchphrase {
-      display: inline-block;
-      font-family: $highlight-font;
-      font-size: 2rem;
-    }
-  }
-
-  .interior-img {
-    width: 70%;
-    margin: auto;
-  }
-
-  .about-us::before {
-    color: $text-color;
-    font-size: 1.2rem;
-    content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'
-  }
-
-
 }
 
 footer {
@@ -113,13 +78,13 @@ footer {
   a {
     color: $text-color;
     font-size: 1.8rem;
-    padding: 0.25rem;
+    padding: 0.3rem;
   }
 
   .tripadvisor {
     height: 2.8rem;
     position: relative;
-    bottom: 0.2rem;
+    bottom: 0.15rem;
 
     &:hover {
       cursor: pointer;

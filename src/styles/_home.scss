@@ -1,0 +1,56 @@
+.main {
+  background-color: transparent;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .wrapper {
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+
+    .bar-img {
+      height: 20rem;
+      padding: 1rem;
+      margin: auto;
+    }
+
+    .catchphrase {
+      font-family: $highlight-font;
+      font-size: 2rem;
+      padding: 1rem;
+      margin: auto;
+    }
+  }
+
+  .second-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+      &::before {
+        content: 'About Us';
+        font-family: $highlight-font;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+    .about-us {
+      font-family: $highlight-font;
+      color: $text-color;
+      font-size: 1.2rem;
+      padding: 1rem 4rem;
+      line-height: 2.3;
+
+      &::before {
+        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'
+      }
+    }
+
+    .interior-img {
+      margin: 1rem auto;
+      max-width: 560px;
+    }
+  }
+}
