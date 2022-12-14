@@ -30,7 +30,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.cdnfonts.com
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader, footer {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nheader {\n  max-height: 20vh;\n  display: flex;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\n.main {\n  background-color: transparent;\n  padding: 1rem 2rem;\n  display: flex;\n  flex-direction: column;\n}\n.main .wrapper {\n  display: flex;\n  margin-bottom: 2rem;\n  justify-content: space-around;\n}\n.main .wrapper .bar-img {\n  height: 20rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .wrapper .catchphrase {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .second-wrapper {\n  display: flex;\n  flex-direction: column;\n  margin-top: 1rem;\n}\n.main .second-wrapper::before {\n  content: \"About Us\";\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n}\n.main .second-wrapper .about-us {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 1rem 4rem;\n  line-height: 2.3;\n}\n.main .second-wrapper .about-us::before {\n  content: \"Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.\";\n}\n.main .second-wrapper .interior-img {\n  margin: 1rem auto;\n  max-width: 560px;\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  height: 5rem;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\nfooter .social {\n  margin: auto 3rem;\n  display: flex;\n}\nfooter a {\n  color: #fff;\n  font-size: 1.8rem;\n  padding: 0.3rem;\n}\nfooter .tripadvisor {\n  height: 2.8rem;\n  position: relative;\n  bottom: 0.15rem;\n}\nfooter .tripadvisor:hover {\n  cursor: pointer;\n}\nfooter .copyright {\n  display: flex;\n  align-items: center;\n  margin: auto 2rem;\n}\nfooter .copyright .logo {\n  height: 3rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/main.scss"],"names":[],"mappings":"AASA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AANF;;AASA;EACE,iCAbW;EAcX,mDAAA;AANF;;AASA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WApBW;EAqBX,aAAA;EACA,sBAAA;EACA,8BAAA;AANF;;AASA;EACE,mDAAA;AANF;;AASA;EACE,gBAAA;EACA,aAAA;EACA,kBAAA;EACA,sBAhCiB;EAiCjB,8BAAA;AANF;AAQE;EACE,WAtCS;EAuCT,4CAxCa;EAyCb,iBAAA;AANJ;AAWI;EACE,6BAAA;EACA,YAAA;EACA,WAhDO;EAiDP,YAAA;EACA,gBAAA;EACA,0BAAA;AATN;AAWM;EACE,eAAA;EACA,2BAAA;AATR;;AAiBA;EACE,6BAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;AAdF;AAgBE;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;AAdJ;AAgBI;EACE,aAAA;EACA,aAAA;EACA,YAAA;AAdN;AAiBI;EACE,4CAlFW;EAmFX,eAAA;EACA,aAAA;EACA,YAAA;AAfN;AAmBE;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;AAjBJ;AAmBM;EACE,mBAAA;EACA,4CAhGS;EAiGT,eAAA;EACA,iBAAA;EACA,kBAAA;AAjBR;AAoBI;EACE,4CAvGW;EAwGX,WAvGO;EAwGP,iBAAA;EACA,kBAAA;EACA,gBAAA;AAlBN;AAoBM;EACE,ydAAA;AAlBR;AAsBI;EACE,iBAAA;EACA,gBAAA;AApBN;;AA0BA;EACE,aAAA;EACA,qBAAA;EACA,sBA1HiB;EA2HjB,YAAA;EACA,WA9HW;EA+HX,aAAA;EACA,8BAAA;AAvBF;AAyBE;EACE,iBAAA;EACA,aAAA;AAvBJ;AA0BE;EACE,WAxIS;EAyIT,iBAAA;EACA,eAAA;AAxBJ;AA2BE;EACE,cAAA;EACA,kBAAA;EACA,eAAA;AAzBJ;AA2BI;EACE,eAAA;AAzBN;AA6BE;EACE,aAAA;EACA,mBAAA;EACA,iBAAA;AA3BJ;AA6BI;EACE,YAAA;AA3BN","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Callie Chalk Font', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader, footer {\r\n  background: url('../assets/images/black-slate.jpg');\r\n}\r\n\r\nheader {\r\n  max-height: 20vh;\r\n  display: flex;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n\r\n  }\r\n\r\n  .nav {\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n\r\n  \r\n}\r\n\r\n.main {\r\n  background-color: transparent;\r\n  padding: 1rem 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  .wrapper {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    justify-content: space-around;\r\n\r\n    .bar-img {\r\n      height: 20rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n\r\n    .catchphrase {\r\n      font-family: $highlight-font;\r\n      font-size: 2rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n  }\r\n\r\n  .second-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin-top: 1rem;\r\n\r\n      &::before {\r\n        content: 'About Us';\r\n        font-family: $highlight-font;\r\n        font-size: 2rem;\r\n        font-weight: bold;\r\n        text-align: center;\r\n      }\r\n\r\n    .about-us {\r\n      font-family: $highlight-font;\r\n      color: $text-color;\r\n      font-size: 1.2rem;\r\n      padding: 1rem 4rem;\r\n      line-height: 2.3;\r\n\r\n      &::before {\r\n        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'\r\n      }\r\n    }\r\n\r\n    .interior-img {\r\n      margin: 1rem auto;\r\n      max-width: 560px;\r\n    }\r\n  }\r\n  \r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  height: 5rem;\r\n  color: $text-color;\r\n  display: flex;\r\n  justify-content: space-between;\r\n\r\n  .social {\r\n    margin: auto 3rem;\r\n    display: flex;\r\n  }\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: 1.8rem;\r\n    padding: 0.3rem;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 2.8rem;\r\n    position: relative;\r\n    bottom: 0.15rem;\r\n\r\n    &:hover {\r\n      cursor: pointer;\r\n    }\r\n  }\r\n\r\n  .copyright {\r\n    display: flex;\r\n    align-items: center;\r\n    margin: auto 2rem;\r\n\r\n    .logo {\r\n      height: 3rem;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main {\n  background-color: transparent;\n  padding: 1rem 2rem;\n  display: flex;\n  flex-direction: column;\n}\n.main .wrapper {\n  display: flex;\n  margin-bottom: 2rem;\n  justify-content: space-around;\n}\n.main .wrapper .bar-img {\n  height: 20rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .wrapper .catchphrase {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .second-wrapper {\n  display: flex;\n  flex-direction: column;\n  margin-top: 1rem;\n}\n.main .second-wrapper::before {\n  content: \"About Us\";\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n}\n.main .second-wrapper .about-us {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 1rem 4rem;\n  line-height: 2.3;\n}\n.main .second-wrapper .about-us::before {\n  content: \"Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.\";\n}\n.main .second-wrapper .interior-img {\n  margin: 1rem auto;\n  max-width: 560px;\n}\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader, footer {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nheader {\n  min-height: 7rem;\n  max-height: 20vh;\n  display: flex;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  height: 5rem;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\nfooter .social {\n  margin: auto 3rem;\n  display: flex;\n}\nfooter a {\n  color: #fff;\n  font-size: 1.8rem;\n  padding: 0.3rem;\n}\nfooter .tripadvisor {\n  height: 2.8rem;\n  position: relative;\n  bottom: 0.15rem;\n}\nfooter .tripadvisor:hover {\n  cursor: pointer;\n}\nfooter .copyright {\n  display: flex;\n  align-items: center;\n  margin: auto 2rem;\n}\nfooter .copyright .logo {\n  height: 3rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_home.scss","webpack://./src/styles/main.scss","webpack://./src/styles/_config.scss"],"names":[],"mappings":"AAAA;EACE,6BAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;ACGF;ADDE;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;ACGJ;ADDI;EACE,aAAA;EACA,aAAA;EACA,YAAA;ACGN;ADAI;EACE,4CEdW;EFeX,eAAA;EACA,aAAA;EACA,YAAA;ACEN;ADEE;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;ACAJ;ADEM;EACE,mBAAA;EACA,4CE5BS;EF6BT,eAAA;EACA,iBAAA;EACA,kBAAA;ACAR;ADGI;EACE,4CEnCW;EFoCX,WEnCO;EFoCP,iBAAA;EACA,kBAAA;EACA,gBAAA;ACDN;ADGM;EACE,ydAAA;ACDR;ADKI;EACE,iBAAA;EACA,gBAAA;ACHN;;AA3CA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AA8CF;;AA3CA;EACE,iCCVW;EDWX,mDAAA;AA8CF;;AA3CA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WCjBW;EDkBX,aAAA;EACA,sBAAA;EACA,8BAAA;AA8CF;;AA3CA;EACE,mDAAA;AA8CF;;AA3CA;EACE,gBAAA;EACA,gBAAA;EACA,aAAA;EACA,kBAAA;EACA,sBC9BiB;ED+BjB,8BAAA;AA8CF;AA5CE;EACE,WCpCS;EDqCT,4CCtCa;EDuCb,iBAAA;AA8CJ;AA1CI;EACE,6BAAA;EACA,YAAA;EACA,WC7CO;ED8CP,YAAA;EACA,gBAAA;EACA,0BAAA;AA4CN;AA1CM;EACE,eAAA;EACA,2BAAA;AA4CR;;AAtCA;EACE,aAAA;EACA,qBAAA;EACA,sBC3DiB;ED4DjB,YAAA;EACA,WC/DW;EDgEX,aAAA;EACA,8BAAA;AAyCF;AAvCE;EACE,iBAAA;EACA,aAAA;AAyCJ;AAtCE;EACE,WCzES;ED0ET,iBAAA;EACA,eAAA;AAwCJ;AArCE;EACE,cAAA;EACA,kBAAA;EACA,eAAA;AAuCJ;AArCI;EACE,eAAA;AAuCN;AAnCE;EACE,aAAA;EACA,mBAAA;EACA,iBAAA;AAqCJ;AAnCI;EACE,YAAA;AAqCN","sourcesContent":[".main {\r\n  background-color: transparent;\r\n  padding: 1rem 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  .wrapper {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    justify-content: space-around;\r\n\r\n    .bar-img {\r\n      height: 20rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n\r\n    .catchphrase {\r\n      font-family: $highlight-font;\r\n      font-size: 2rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n  }\r\n\r\n  .second-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin-top: 1rem;\r\n\r\n      &::before {\r\n        content: 'About Us';\r\n        font-family: $highlight-font;\r\n        font-size: 2rem;\r\n        font-weight: bold;\r\n        text-align: center;\r\n      }\r\n\r\n    .about-us {\r\n      font-family: $highlight-font;\r\n      color: $text-color;\r\n      font-size: 1.2rem;\r\n      padding: 1rem 4rem;\r\n      line-height: 2.3;\r\n\r\n      &::before {\r\n        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'\r\n      }\r\n    }\r\n\r\n    .interior-img {\r\n      margin: 1rem auto;\r\n      max-width: 560px;\r\n    }\r\n  }\r\n}","@import 'config';\r\n@import 'home';\r\n@import 'menu';\r\n@import 'gallery';\r\n@import 'contact';\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader, footer {\r\n  background: url('../assets/images/black-slate.jpg');\r\n}\r\n\r\nheader {\r\n  min-height: 7rem;\r\n  max-height: 20vh;\r\n  display: flex;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n  }\r\n\r\n  .nav {\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  height: 5rem;\r\n  color: $text-color;\r\n  display: flex;\r\n  justify-content: space-between;\r\n\r\n  .social {\r\n    margin: auto 3rem;\r\n    display: flex;\r\n  }\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: 1.8rem;\r\n    padding: 0.3rem;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 2.8rem;\r\n    position: relative;\r\n    bottom: 0.15rem;\r\n\r\n    &:hover {\r\n      cursor: pointer;\r\n    }\r\n  }\r\n\r\n  .copyright {\r\n    display: flex;\r\n    align-items: center;\r\n    margin: auto 2rem;\r\n\r\n    .logo {\r\n      height: 3rem;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n","@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Callie Chalk Font', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -554,6 +554,70 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/contact.js":
+/*!************************!*\
+  !*** ./src/contact.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const contentContainer = document.querySelector("#content");
+
+const loadContact = () => {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  contentContainer.appendChild(main);
+  
+  const contact = document.createElement("div");
+  contact.classList.add("contact");
+  main.appendChild(contact);
+
+  const items = document.createElement("p");
+  items.textContent = "Contact Page";
+  contact.appendChild(items);
+
+  return contact;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContact);
+
+/***/ }),
+
+/***/ "./src/gallery.js":
+/*!************************!*\
+  !*** ./src/gallery.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const contentContainer = document.querySelector("#content");
+
+const loadGallery = () => {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  contentContainer.appendChild(main);
+  
+  const gallery = document.createElement("div");
+  gallery.classList.add("gallery");
+  main.appendChild(gallery);
+
+  const items = document.createElement("p");
+  items.textContent = "Gallery Page";
+  gallery.appendChild(items);
+
+  return gallery;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadGallery);
+
+/***/ }),
+
 /***/ "./src/home.js":
 /*!*********************!*\
   !*** ./src/home.js ***!
@@ -569,12 +633,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const contentContainer = document.querySelector("#content");
 
-const createMain = () => {
+const loadHome = () => {
   const main = document.createElement("div");
   main.classList.add("main");
   contentContainer.appendChild(main);
-
+  
   const firstWrapper = document.createElement("div");
   firstWrapper.classList.add("wrapper");
   main.appendChild(firstWrapper);
@@ -605,7 +670,39 @@ const createMain = () => {
   return main;
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMain);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);
+
+/***/ }),
+
+/***/ "./src/menu.js":
+/*!*********************!*\
+  !*** ./src/menu.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const contentContainer = document.querySelector("#content");
+
+const loadMenu = () => {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  contentContainer.appendChild(main);
+
+  const menu = document.createElement("div");
+  menu.classList.add("menu");
+  main.appendChild(menu);
+
+  const items = document.createElement("p");
+  items.textContent = "Menu Page";
+  menu.appendChild(items);
+
+  return menu;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);
 
 /***/ }),
 
@@ -814,6 +911,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_icons_tripadvisor_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/icons/tripadvisor.png */ "./src/assets/icons/tripadvisor.png");
 /* harmony import */ var _assets_images_logo_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/logo.png */ "./src/assets/images/logo.png");
 /* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home */ "./src/home.js");
+/* harmony import */ var _menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./menu */ "./src/menu.js");
+/* harmony import */ var _gallery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./gallery */ "./src/gallery.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./contact */ "./src/contact.js");
+
+
 
 
 
@@ -821,6 +923,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const contentContainer = document.querySelector("#content");
+
 
 const createHeader = () => {
   const header = document.createElement("header");
@@ -842,25 +945,64 @@ const createNav = () => {
 
   const homeBtn = document.createElement("button");
   homeBtn.classList.add("nav-button");
+  homeBtn.classList.add("active");
   homeBtn.textContent = "Home";
   nav.appendChild(homeBtn);
+  homeBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(homeBtn);
+    (0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  })
 
   const menuBtn = document.createElement("button");
   menuBtn.classList.add("nav-button");
   menuBtn.textContent = "Menu";
   nav.appendChild(menuBtn);
+  menuBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(menuBtn);
+    (0,_menu__WEBPACK_IMPORTED_MODULE_4__["default"])();
+  })
 
   const galleryBtn = document.createElement("button");
   galleryBtn.classList.add("nav-button");
   galleryBtn.textContent = "Gallery";
   nav.appendChild(galleryBtn);
+  galleryBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(galleryBtn);
+    (0,_gallery__WEBPACK_IMPORTED_MODULE_5__["default"])();
+  })
 
   const contactBtn = document.createElement("button");
   contactBtn.classList.add("nav-button");
   contactBtn.textContent = "Contact";
   nav.appendChild(contactBtn);
+  contactBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(contactBtn);
+    (0,_contact__WEBPACK_IMPORTED_MODULE_6__["default"])();
+  })
 
   return nav;
+}
+
+const navButtons = document.querySelectorAll(".nav-button");
+
+navButtons.forEach(navButton => navButton.addEventListener('click', (e) => {
+  navButtons.forEach((navButton) => {
+    navButton.classList.remove("active");
+  })
+
+  if(e.target.classList.contains("active")) return;
+
+  e.target.classList.add("active");
+  
+}));
+
+
+const createMain = () => {
+    (0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
 }
 
 const createFooter = () => {
@@ -913,18 +1055,8 @@ const createFooter = () => {
 }
 
 createHeader();
-(0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
+createMain();
 createFooter();
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -933,4 +1065,4 @@ createFooter();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle05e7d0c873b452bdd6ca.js.map
+//# sourceMappingURL=bundlefa41f911197088098e1e.js.map

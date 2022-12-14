@@ -1,16 +1,11 @@
 import interior from './assets/images/interior2.jpg';
 import bar from './assets/images/bar1.jpg';
 
-const contentContainer = document.querySelector("#content");
-
-const loadHome = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-
+const createHome = () => {
+  const home = document.createElement("div");
   const firstWrapper = document.createElement("div");
   firstWrapper.classList.add("wrapper");
-  main.appendChild(firstWrapper);
+  home.appendChild(firstWrapper);
 
       const barImg = document.createElement("img");
       barImg.src = bar;
@@ -24,7 +19,7 @@ const loadHome = () => {
 
   const secondWrapper = document.createElement("div");
   secondWrapper.classList.add("second-wrapper");
-  main.appendChild(secondWrapper);
+  home.appendChild(secondWrapper);
 
       const aboutUs = document.createElement("p");
       aboutUs.classList.add("about-us");
@@ -35,7 +30,13 @@ const loadHome = () => {
       interiorImg.classList.add("interior-img");
       secondWrapper.appendChild(interiorImg);
 
-  return main;
+  return home;
+}
+
+const loadHome = () => {
+  const main = document.querySelector(".main");
+  main.textContent = '';
+  main.appendChild(createHome());
 }
 
 export default loadHome;

@@ -2,15 +2,14 @@ import './styles/main.scss';
 import tripadvisor from './assets/icons/tripadvisor.png';
 import siteLogo from './assets/images/logo.png';
 import loadHome from './home';
+import loadMenu from './menu';
+import loadGallery from './gallery';
+import loadContact from './contact';
 
-
-const contentContainer = document.querySelector("#content");
-const navButtons = document.querySelector("nav-button");
 
 const createHeader = () => {
   const header = document.createElement("header");
   header.classList.add("header");
-  contentContainer.appendChild(header);
 
   const restaurantName = document.createElement("h1");
   restaurantName.classList.add("h1");
@@ -29,30 +28,68 @@ const createNav = () => {
   homeBtn.classList.add("nav-button");
   homeBtn.classList.add("active");
   homeBtn.textContent = "Home";
-  nav.appendChild(homeBtn);
+  homeBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(homeBtn);
+    loadHome();
+  })
 
   const menuBtn = document.createElement("button");
   menuBtn.classList.add("nav-button");
   menuBtn.textContent = "Menu";
-  nav.appendChild(menuBtn);
+  menuBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(menuBtn);
+    loadMenu();
+  })
 
   const galleryBtn = document.createElement("button");
   galleryBtn.classList.add("nav-button");
   galleryBtn.textContent = "Gallery";
-  nav.appendChild(galleryBtn);
+  galleryBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(galleryBtn);
+    loadGallery();
+  })
 
   const contactBtn = document.createElement("button");
   contactBtn.classList.add("nav-button");
   contactBtn.textContent = "Contact";
+  contactBtn.addEventListener('click', (e) => {
+    if(e.target.classList.contains("active")) return;
+    setActiveBtn(contactBtn);
+    loadContact();
+  })
+
+  nav.appendChild(homeBtn);
+  nav.appendChild(menuBtn);
+  nav.appendChild(galleryBtn);
   nav.appendChild(contactBtn);
 
   return nav;
 }
 
+function setActiveBtn(button) {
+  const navButtons = document.querySelectorAll(".nav-button");
+
+  navButtons.forEach((button) => {
+    if(button !== this) {
+      button.classList.remove("active");
+    }
+  });
+
+  button.classList.add("active");
+}
+
+function createMain() {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  return main;
+}
+
 const createFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
-  contentContainer.appendChild(footer);
 
     const socialMedia = document.createElement("div");
     socialMedia.classList.add("social");
@@ -100,27 +137,16 @@ const createFooter = () => {
 
 
 function loadPage() {
-  createHeader();
+  const contentContainer = document.querySelector("#content");
+
+  contentContainer.appendChild(createHeader());
+  contentContainer.appendChild(createMain());
+  contentContainer.appendChild(createFooter());
+
   loadHome();
-  createFooter();
 }
 
 loadPage();
-
-// navButtons.forEach((navButton) => navButton.addEventListener('click', (e) => {
-//   if(e.target.classList.contains("active")) return;
-//   e.target.classList.add("active");
-// }) )
-
-
-
-
-
-
-
-
-
-
 
 
 
