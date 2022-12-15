@@ -1,0 +1,21 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: space-evenly;
+
+  p {
+    font-family: $highlight-font;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2;
+    font-size: large;
+  }
+
+  img {
+    height: 12rem;
+    width: 17rem;
+    padding: 0.5rem;
+    border-radius: 15%;
+  }
+}

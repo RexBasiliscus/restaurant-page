@@ -1,0 +1,49 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+
+  h1 {
+    margin: 0 0 0.5rem 1rem;
+    font-family: $highlight-font;
+  }
+
+  .statement {
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+
+  .servings {
+    line-height: 1.5;
+
+    .course {
+      margin: 0.75rem 0;
+
+      li {
+        margin-left: 1.25rem;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .menu-gallery {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+    img {
+      height: 7rem;
+      width: 10rem;
+      padding: 0.5rem;
+      transition: 0.2s;
+      border-radius: 15%;
+
+      &:hover {
+        transform: scale(1.5);
+        background: transparent;
+      }
+
+    }
+  }
+}
