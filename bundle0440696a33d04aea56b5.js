@@ -30,7 +30,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.cdnfonts.com
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main {\n  background-color: transparent;\n  padding: 1rem 2rem;\n  display: flex;\n  flex-direction: column;\n}\n.main .wrapper {\n  display: flex;\n  margin-bottom: 2rem;\n  justify-content: space-around;\n}\n.main .wrapper .bar-img {\n  height: 20rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .wrapper .catchphrase {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .second-wrapper {\n  display: flex;\n  flex-direction: column;\n  margin-top: 1rem;\n}\n.main .second-wrapper::before {\n  content: \"About Us\";\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n}\n.main .second-wrapper .about-us {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 1rem 4rem;\n  line-height: 2.3;\n}\n.main .second-wrapper .about-us::before {\n  content: \"Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.\";\n}\n.main .second-wrapper .interior-img {\n  margin: 1rem auto;\n  max-width: 560px;\n}\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader, footer {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nheader {\n  min-height: 7rem;\n  max-height: 20vh;\n  display: flex;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: none;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 0.2s;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  height: 5rem;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\nfooter .social {\n  margin: auto 3rem;\n  display: flex;\n}\nfooter a {\n  color: #fff;\n  font-size: 1.8rem;\n  padding: 0.3rem;\n}\nfooter .tripadvisor {\n  height: 2.8rem;\n  position: relative;\n  bottom: 0.15rem;\n}\nfooter .tripadvisor:hover {\n  cursor: pointer;\n}\nfooter .copyright {\n  display: flex;\n  align-items: center;\n  margin: auto 2rem;\n}\nfooter .copyright .logo {\n  height: 3rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_home.scss","webpack://./src/styles/main.scss","webpack://./src/styles/_config.scss"],"names":[],"mappings":"AAAA;EACE,6BAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;ACGF;ADDE;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;ACGJ;ADDI;EACE,aAAA;EACA,aAAA;EACA,YAAA;ACGN;ADAI;EACE,4CEdW;EFeX,eAAA;EACA,aAAA;EACA,YAAA;ACEN;ADEE;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;ACAJ;ADEM;EACE,mBAAA;EACA,4CE5BS;EF6BT,eAAA;EACA,iBAAA;EACA,kBAAA;ACAR;ADGI;EACE,4CEnCW;EFoCX,WEnCO;EFoCP,iBAAA;EACA,kBAAA;EACA,gBAAA;ACDN;ADGM;EACE,ydAAA;ACDR;ADKI;EACE,iBAAA;EACA,gBAAA;ACHN;;AA3CA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AA8CF;;AA3CA;EACE,iCCVW;EDWX,mDAAA;AA8CF;;AA3CA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WCjBW;EDkBX,aAAA;EACA,sBAAA;EACA,8BAAA;AA8CF;;AA3CA;EACE,mDAAA;AA8CF;;AA3CA;EACE,gBAAA;EACA,gBAAA;EACA,aAAA;EACA,kBAAA;EACA,sBC9BiB;ED+BjB,8BAAA;AA8CF;AA5CE;EACE,WCpCS;EDqCT,4CCtCa;EDuCb,iBAAA;AA8CJ;AA1CI;EACE,6BAAA;EACA,YAAA;EACA,WC7CO;ED8CP,YAAA;EACA,gBAAA;EACA,0BAAA;AA4CN;AA1CM;EACE,eAAA;EACA,2BAAA;AA4CR;;AAtCA;EACE,aAAA;EACA,qBAAA;EACA,sBC3DiB;ED4DjB,YAAA;EACA,WC/DW;EDgEX,aAAA;EACA,8BAAA;AAyCF;AAvCE;EACE,iBAAA;EACA,aAAA;AAyCJ;AAtCE;EACE,WCzES;ED0ET,iBAAA;EACA,eAAA;AAwCJ;AArCE;EACE,cAAA;EACA,kBAAA;EACA,eAAA;AAuCJ;AArCI;EACE,eAAA;AAuCN;AAnCE;EACE,aAAA;EACA,mBAAA;EACA,iBAAA;AAqCJ;AAnCI;EACE,YAAA;AAqCN","sourcesContent":[".main {\r\n  background-color: transparent;\r\n  padding: 1rem 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  .wrapper {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    justify-content: space-around;\r\n\r\n    .bar-img {\r\n      height: 20rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n\r\n    .catchphrase {\r\n      font-family: $highlight-font;\r\n      font-size: 2rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n  }\r\n\r\n  .second-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin-top: 1rem;\r\n\r\n      &::before {\r\n        content: 'About Us';\r\n        font-family: $highlight-font;\r\n        font-size: 2rem;\r\n        font-weight: bold;\r\n        text-align: center;\r\n      }\r\n\r\n    .about-us {\r\n      font-family: $highlight-font;\r\n      color: $text-color;\r\n      font-size: 1.2rem;\r\n      padding: 1rem 4rem;\r\n      line-height: 2.3;\r\n\r\n      &::before {\r\n        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'\r\n      }\r\n    }\r\n\r\n    .interior-img {\r\n      margin: 1rem auto;\r\n      max-width: 560px;\r\n    }\r\n  }\r\n}","@import 'config';\r\n@import 'home';\r\n@import 'menu';\r\n@import 'gallery';\r\n@import 'contact';\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader, footer {\r\n  background: url('../assets/images/black-slate.jpg');\r\n}\r\n\r\nheader {\r\n  min-height: 7rem;\r\n  max-height: 20vh;\r\n  display: flex;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n  }\r\n\r\n  .nav {\r\n    &-button {\r\n      background-color: transparent;\r\n      border: none;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 0.2s;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  height: 5rem;\r\n  color: $text-color;\r\n  display: flex;\r\n  justify-content: space-between;\r\n\r\n  .social {\r\n    margin: auto 3rem;\r\n    display: flex;\r\n  }\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: 1.8rem;\r\n    padding: 0.3rem;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 2.8rem;\r\n    position: relative;\r\n    bottom: 0.15rem;\r\n\r\n    &:hover {\r\n      cursor: pointer;\r\n    }\r\n  }\r\n\r\n  .copyright {\r\n    display: flex;\r\n    align-items: center;\r\n    margin: auto 2rem;\r\n\r\n    .logo {\r\n      height: 3rem;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n","@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Callie Chalk Font', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main {\n  background-color: transparent;\n  padding: 1rem 2rem;\n  display: flex;\n  flex-direction: column;\n}\n.main .wrapper {\n  display: flex;\n  margin-bottom: 2rem;\n  justify-content: space-around;\n}\n.main .wrapper .bar-img {\n  height: 20rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .wrapper .catchphrase {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  padding: 1rem;\n  margin: auto;\n}\n.main .second-wrapper {\n  display: flex;\n  flex-direction: column;\n  margin-top: 1rem;\n}\n.main .second-wrapper::before {\n  content: \"About Us\";\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-size: 2rem;\n  font-weight: bold;\n  text-align: center;\n}\n.main .second-wrapper .about-us {\n  font-family: \"Callie Chalk Font\", sans-serif;\n  color: #fff;\n  font-size: 1.2rem;\n  padding: 1rem 4rem;\n  line-height: 2.3;\n}\n.main .second-wrapper .about-us::before {\n  content: \"Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.\";\n}\n.main .second-wrapper .interior-img {\n  margin: 1rem auto;\n  max-width: 560px;\n}\n\n.menu {\n  display: flex;\n  flex-direction: column;\n  padding: 1rem;\n  margin: 0 auto;\n}\n.menu h1 {\n  margin: 0 0 0.5rem 1rem;\n  font-family: \"Callie Chalk Font\", sans-serif;\n}\n.menu .statement {\n  line-height: 1.5;\n  margin-bottom: 1rem;\n}\n.menu .servings {\n  line-height: 1.5;\n}\n.menu .servings .course {\n  margin: 0.75rem 0;\n}\n.menu .servings .course li {\n  margin-left: 1.25rem;\n  padding: 0.5rem;\n}\n.menu .menu-gallery {\n  display: flex;\n  max-width: 100%;\n  flex-wrap: wrap;\n}\n.menu .menu-gallery img {\n  height: 7rem;\n  width: 10rem;\n  padding: 0.5rem;\n  transition: 0.2s;\n}\n.menu .menu-gallery img:hover {\n  transform: scale(1.5);\n  background: transparent;\n}\n\n* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Roboto\", sans-serif;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\n\n#content {\n  min-height: 100vh;\n  max-width: 1100px;\n  width: 90%;\n  margin: 0 auto;\n  color: #fff;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n}\n\nheader, footer {\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n}\n\nheader {\n  min-height: 7rem;\n  max-height: 20vh;\n  display: flex;\n  padding: 2rem 1rem;\n  background-color: #000;\n  justify-content: space-between;\n}\nheader h1 {\n  color: #fff;\n  font-family: \"Callie Chalk Font\", sans-serif;\n  font-weight: bold;\n}\nheader .nav-button {\n  background-color: transparent;\n  border: transparent;\n  color: #fff;\n  margin: 1rem;\n  font-size: large;\n  transition: transform 1s ease;\n}\nheader .nav-button:hover {\n  cursor: pointer;\n  transform: translateY(-10%);\n}\nheader .nav-button.active {\n  border-bottom: 1px solid #fff;\n}\n\nfooter {\n  display: flex;\n  align-items: flex-end;\n  background-color: #000;\n  height: 5rem;\n  color: #fff;\n  display: flex;\n  justify-content: space-between;\n}\nfooter .social {\n  margin: auto 3rem;\n  display: flex;\n}\nfooter a {\n  color: #fff;\n  font-size: 1.8rem;\n  padding: 0.3rem;\n}\nfooter .tripadvisor {\n  height: 2.8rem;\n  position: relative;\n  bottom: 0.15rem;\n}\nfooter .tripadvisor:hover {\n  cursor: pointer;\n}\nfooter .copyright {\n  display: flex;\n  align-items: center;\n  margin: auto 2rem;\n}\nfooter .copyright .logo {\n  height: 3rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_home.scss","webpack://./src/styles/main.scss","webpack://./src/styles/_config.scss","webpack://./src/styles/_menu.scss"],"names":[],"mappings":"AAAA;EACE,6BAAA;EACA,kBAAA;EACA,aAAA;EACA,sBAAA;ACGF;ADDE;EACE,aAAA;EACA,mBAAA;EACA,6BAAA;ACGJ;ADDI;EACE,aAAA;EACA,aAAA;EACA,YAAA;ACGN;ADAI;EACE,4CEdW;EFeX,eAAA;EACA,aAAA;EACA,YAAA;ACEN;ADEE;EACE,aAAA;EACA,sBAAA;EACA,gBAAA;ACAJ;ADEM;EACE,mBAAA;EACA,4CE5BS;EF6BT,eAAA;EACA,iBAAA;EACA,kBAAA;ACAR;ADGI;EACE,4CEnCW;EFoCX,WEnCO;EFoCP,iBAAA;EACA,kBAAA;EACA,gBAAA;ACDN;ADGM;EACE,ydAAA;ACDR;ADKI;EACE,iBAAA;EACA,gBAAA;ACHN;;AEjDA;EACE,aAAA;EACA,sBAAA;EACA,aAAA;EACA,cAAA;AFoDF;AElDE;EACE,uBAAA;EACA,4CDJa;ADwDjB;AEjDE;EACE,gBAAA;EACA,mBAAA;AFmDJ;AEhDE;EACE,gBAAA;AFkDJ;AEhDI;EACE,iBAAA;AFkDN;AEhDM;EACE,oBAAA;EACA,eAAA;AFkDR;AE7CE;EACE,aAAA;EACA,eAAA;EACA,eAAA;AF+CJ;AE7CI;EACE,YAAA;EACA,YAAA;EACA,eAAA;EACA,gBAAA;AF+CN;AE7CM;EACE,qBAAA;EACA,uBAAA;AF+CR;;AAnFA;EACE,sBAAA;EACA,SAAA;EACA,UAAA;AAsFF;;AAnFA;EACE,iCCVW;EDWX,mDAAA;AAsFF;;AAnFA;EACE,iBAAA;EACA,iBAAA;EACA,UAAA;EACA,cAAA;EACA,WCjBW;EDkBX,aAAA;EACA,sBAAA;EACA,8BAAA;AAsFF;;AAnFA;EACE,mDAAA;AAsFF;;AAnFA;EACE,gBAAA;EACA,gBAAA;EACA,aAAA;EACA,kBAAA;EACA,sBC9BiB;ED+BjB,8BAAA;AAsFF;AApFE;EACE,WCpCS;EDqCT,4CCtCa;EDuCb,iBAAA;AAsFJ;AAlFI;EACE,6BAAA;EACA,mBAAA;EACA,WC7CO;ED8CP,YAAA;EACA,gBAAA;EACA,6BAAA;AAoFN;AAlFM;EACE,eAAA;EACA,2BAAA;AAoFR;AAjFM;EACE,6BAAA;AAmFR;;AA7EA;EACE,aAAA;EACA,qBAAA;EACA,sBC/DiB;EDgEjB,YAAA;EACA,WCnEW;EDoEX,aAAA;EACA,8BAAA;AAgFF;AA9EE;EACE,iBAAA;EACA,aAAA;AAgFJ;AA7EE;EACE,WC7ES;ED8ET,iBAAA;EACA,eAAA;AA+EJ;AA5EE;EACE,cAAA;EACA,kBAAA;EACA,eAAA;AA8EJ;AA5EI;EACE,eAAA;AA8EN;AA1EE;EACE,aAAA;EACA,mBAAA;EACA,iBAAA;AA4EJ;AA1EI;EACE,YAAA;AA4EN","sourcesContent":[".main {\r\n  background-color: transparent;\r\n  padding: 1rem 2rem;\r\n  display: flex;\r\n  flex-direction: column;\r\n\r\n  .wrapper {\r\n    display: flex;\r\n    margin-bottom: 2rem;\r\n    justify-content: space-around;\r\n\r\n    .bar-img {\r\n      height: 20rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n\r\n    .catchphrase {\r\n      font-family: $highlight-font;\r\n      font-size: 2rem;\r\n      padding: 1rem;\r\n      margin: auto;\r\n    }\r\n  }\r\n\r\n  .second-wrapper {\r\n    display: flex;\r\n    flex-direction: column;\r\n    margin-top: 1rem;\r\n\r\n      &::before {\r\n        content: 'About Us';\r\n        font-family: $highlight-font;\r\n        font-size: 2rem;\r\n        font-weight: bold;\r\n        text-align: center;\r\n      }\r\n\r\n    .about-us {\r\n      font-family: $highlight-font;\r\n      color: $text-color;\r\n      font-size: 1.2rem;\r\n      padding: 1rem 4rem;\r\n      line-height: 2.3;\r\n\r\n      &::before {\r\n        content: 'Lucerro is a small restaurant in the center of the city where a group of chefs, waiters and sommeliers and most of all friends, work together on a daily basis to give our guests a memorable experience and a good time. We try to uphold a very relaxed and informal atmosphere without compromising on our professional attitude. Our principle is to have complete freedom in the daily creative process and also give our guests the maximum freedom to enjoy themselves.'\r\n      }\r\n    }\r\n\r\n    .interior-img {\r\n      margin: 1rem auto;\r\n      max-width: 560px;\r\n    }\r\n  }\r\n}","@import 'config';\r\n@import 'home';\r\n@import 'menu';\r\n@import 'gallery';\r\n@import 'contact';\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  font-family: $font-stack;\r\n  background: url('../assets/images/wood.jpg');\r\n}\r\n\r\n#content {\r\n  min-height: 100vh;\r\n  max-width: 1100px;\r\n  width: 90%;\r\n  margin: 0 auto;\r\n  color: $text-color;\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: space-between;\r\n}\r\n\r\nheader, footer {\r\n  background: url('../assets/images/black-slate.jpg');\r\n}\r\n\r\nheader {\r\n  min-height: 7rem;\r\n  max-height: 20vh;\r\n  display: flex;\r\n  padding: 2rem 1rem;\r\n  background-color: $background-color;\r\n  justify-content: space-between;\r\n\r\n  h1 {\r\n    color: $text-color;\r\n    font-family: $highlight-font;\r\n    font-weight: bold;\r\n  }\r\n\r\n  .nav {\r\n    &-button {\r\n      background-color: transparent;\r\n      border: transparent;\r\n      color: $text-color;\r\n      margin: 1rem;\r\n      font-size: large;\r\n      transition: transform 1s ease;\r\n\r\n      &:hover {\r\n        cursor: pointer;\r\n        transform: translateY(-10%);\r\n      }\r\n\r\n      &.active {\r\n        border-bottom: 1px solid $text-color;\r\n      }\r\n    }\r\n  }\r\n}\r\n\r\nfooter {\r\n  display: flex;\r\n  align-items: flex-end;\r\n  background-color: $background-color;\r\n  height: 5rem;\r\n  color: $text-color;\r\n  display: flex;\r\n  justify-content: space-between;\r\n\r\n  .social {\r\n    margin: auto 3rem;\r\n    display: flex;\r\n  }\r\n\r\n  a {\r\n    color: $text-color;\r\n    font-size: 1.8rem;\r\n    padding: 0.3rem;\r\n  }\r\n\r\n  .tripadvisor {\r\n    height: 2.8rem;\r\n    position: relative;\r\n    bottom: 0.15rem;\r\n\r\n    &:hover {\r\n      cursor: pointer;\r\n    }\r\n  }\r\n\r\n  .copyright {\r\n    display: flex;\r\n    align-items: center;\r\n    margin: auto 2rem;\r\n\r\n    .logo {\r\n      height: 3rem;\r\n    }\r\n  }\r\n\r\n}\r\n\r\n","@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');\r\n@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');\r\n\r\n$font-stack: 'Roboto', sans-serif;\r\n$highlight-font: 'Callie Chalk Font', sans-serif;\r\n$text-color: #fff;\r\n$highlight-color: #988349;\r\n$background-color: #000;",".menu {\r\n  display: flex;\r\n  flex-direction: column;\r\n  padding: 1rem;\r\n  margin: 0 auto;\r\n\r\n  h1 {\r\n    margin: 0 0 0.5rem 1rem;\r\n    font-family: $highlight-font;\r\n  }\r\n\r\n  .statement {\r\n    line-height: 1.5;\r\n    margin-bottom: 1rem;\r\n  }\r\n\r\n  .servings {\r\n    line-height: 1.5;\r\n\r\n    .course {\r\n      margin: 0.75rem 0;\r\n\r\n      li {\r\n        margin-left: 1.25rem;\r\n        padding: 0.5rem;\r\n      }\r\n    }\r\n  }\r\n\r\n  .menu-gallery {\r\n    display: flex;\r\n    max-width: 100%;\r\n    flex-wrap: wrap;\r\n\r\n    img {\r\n      height: 7rem;\r\n      width: 10rem;\r\n      padding: 0.5rem;\r\n      transition: 0.2s;\r\n\r\n      &:hover {\r\n        transform: scale(1.5);\r\n        background: transparent;\r\n      }\r\n\r\n    }\r\n  }\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -564,22 +564,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const contentContainer = document.querySelector("#content");
 
-const loadContact = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-  
+
+const createContact = () => {
   const contact = document.createElement("div");
   contact.classList.add("contact");
-  main.appendChild(contact);
 
   const items = document.createElement("p");
   items.textContent = "Contact Page";
   contact.appendChild(items);
 
   return contact;
+}
+
+const loadContact = () => {
+  const main = document.querySelector(".main");
+  main.textContent = '';
+  main.appendChild(createContact());
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadContact);
@@ -596,22 +597,106 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const contentContainer = document.querySelector("#content");
+/* harmony import */ var _assets_images_food1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/food1.jpg */ "./src/assets/images/food1.jpg");
+/* harmony import */ var _assets_images_food2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/food2.jpg */ "./src/assets/images/food2.jpg");
+/* harmony import */ var _assets_images_food3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/food3.jpg */ "./src/assets/images/food3.jpg");
+/* harmony import */ var _assets_images_food4_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/food4.jpg */ "./src/assets/images/food4.jpg");
+/* harmony import */ var _assets_images_food5_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/food5.jpg */ "./src/assets/images/food5.jpg");
+/* harmony import */ var _assets_images_food6_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/food6.jpg */ "./src/assets/images/food6.jpg");
+/* harmony import */ var _assets_images_food7_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/food7.jpg */ "./src/assets/images/food7.jpg");
+/* harmony import */ var _assets_images_food8_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/food8.jpg */ "./src/assets/images/food8.jpg");
+/* harmony import */ var _assets_images_food9_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/food9.jpg */ "./src/assets/images/food9.jpg");
+/* harmony import */ var _assets_images_food10_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/food10.jpg */ "./src/assets/images/food10.jpg");
+/* harmony import */ var _assets_images_food11_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/food11.jpg */ "./src/assets/images/food11.jpg");
+/* harmony import */ var _assets_images_food12_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/food12.jpg */ "./src/assets/images/food12.jpg");
+/* harmony import */ var _assets_images_wine_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/wine.jpg */ "./src/assets/images/wine.jpg");
+/* harmony import */ var _assets_images_interior1_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/interior1.jpg */ "./src/assets/images/interior1.jpg");
+/* harmony import */ var _assets_images_interior2_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/interior2.jpg */ "./src/assets/images/interior2.jpg");
+/* harmony import */ var _assets_images_bar1_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/bar1.jpg */ "./src/assets/images/bar1.jpg");
 
-const loadGallery = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const createGallery = () => {
   const gallery = document.createElement("div");
   gallery.classList.add("gallery");
-  main.appendChild(gallery);
 
-  const items = document.createElement("p");
-  items.textContent = "Gallery Page";
-  gallery.appendChild(items);
+  function addImg(name) {
+    const img = document.createElement("img");
+    img.src = `${name}`;
+    img.alt = `${name}`;
+    return img;
+  } 
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food1_jpg__WEBPACK_IMPORTED_MODULE_0__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food2_jpg__WEBPACK_IMPORTED_MODULE_1__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food3_jpg__WEBPACK_IMPORTED_MODULE_2__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food4_jpg__WEBPACK_IMPORTED_MODULE_3__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food5_jpg__WEBPACK_IMPORTED_MODULE_4__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food6_jpg__WEBPACK_IMPORTED_MODULE_5__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food7_jpg__WEBPACK_IMPORTED_MODULE_6__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food8_jpg__WEBPACK_IMPORTED_MODULE_7__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food9_jpg__WEBPACK_IMPORTED_MODULE_8__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food10_jpg__WEBPACK_IMPORTED_MODULE_9__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food11_jpg__WEBPACK_IMPORTED_MODULE_10__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food12_jpg__WEBPACK_IMPORTED_MODULE_11__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_wine_jpg__WEBPACK_IMPORTED_MODULE_12__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_interior1_jpg__WEBPACK_IMPORTED_MODULE_13__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_interior2_jpg__WEBPACK_IMPORTED_MODULE_14__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_bar1_jpg__WEBPACK_IMPORTED_MODULE_15__));
 
   return gallery;
+}
+
+const loadGallery = () => {
+  const main = document.querySelector(".main");
+  main.textContent = '';
+  main.appendChild(createGallery());
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadGallery);
@@ -633,16 +718,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const contentContainer = document.querySelector("#content");
-
-const loadHome = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
-  
+const createHome = () => {
+  const home = document.createElement("div");
   const firstWrapper = document.createElement("div");
   firstWrapper.classList.add("wrapper");
-  main.appendChild(firstWrapper);
+  home.appendChild(firstWrapper);
 
       const barImg = document.createElement("img");
       barImg.src = _assets_images_bar1_jpg__WEBPACK_IMPORTED_MODULE_1__;
@@ -656,7 +736,7 @@ const loadHome = () => {
 
   const secondWrapper = document.createElement("div");
   secondWrapper.classList.add("second-wrapper");
-  main.appendChild(secondWrapper);
+  home.appendChild(secondWrapper);
 
       const aboutUs = document.createElement("p");
       aboutUs.classList.add("about-us");
@@ -667,7 +747,13 @@ const loadHome = () => {
       interiorImg.classList.add("interior-img");
       secondWrapper.appendChild(interiorImg);
 
-  return main;
+  return home;
+}
+
+const loadHome = () => {
+  const main = document.querySelector(".main");
+  main.textContent = '';
+  main.appendChild(createHome());
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);
@@ -684,22 +770,121 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-const contentContainer = document.querySelector("#content");
+/* harmony import */ var _assets_images_food1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/images/food1.jpg */ "./src/assets/images/food1.jpg");
+/* harmony import */ var _assets_images_food2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/images/food2.jpg */ "./src/assets/images/food2.jpg");
+/* harmony import */ var _assets_images_food3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/food3.jpg */ "./src/assets/images/food3.jpg");
+/* harmony import */ var _assets_images_food4_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/food4.jpg */ "./src/assets/images/food4.jpg");
+/* harmony import */ var _assets_images_food5_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/food5.jpg */ "./src/assets/images/food5.jpg");
+/* harmony import */ var _assets_images_food6_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/food6.jpg */ "./src/assets/images/food6.jpg");
+/* harmony import */ var _assets_images_food7_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/food7.jpg */ "./src/assets/images/food7.jpg");
+/* harmony import */ var _assets_images_food8_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/food8.jpg */ "./src/assets/images/food8.jpg");
+/* harmony import */ var _assets_images_food9_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/food9.jpg */ "./src/assets/images/food9.jpg");
+/* harmony import */ var _assets_images_food10_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/food10.jpg */ "./src/assets/images/food10.jpg");
+/* harmony import */ var _assets_images_food11_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/food11.jpg */ "./src/assets/images/food11.jpg");
+/* harmony import */ var _assets_images_food12_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/food12.jpg */ "./src/assets/images/food12.jpg");
 
-const loadMenu = () => {
-  const main = document.createElement("div");
-  main.classList.add("main");
-  contentContainer.appendChild(main);
 
+
+
+
+
+
+
+
+
+
+
+
+
+const createMenu = () => {
   const menu = document.createElement("div");
   menu.classList.add("menu");
-  main.appendChild(menu);
+  
+  menu.innerHTML = `
+    <h1>Our Menu</h1>
+    <div class="statement">
+      <p>The food in Lucerro is a product of teamwork in the kitchen, whether it’s the creative or the actual technical process of cooking.<br><br>
+      We pride ourselves on cooking in a natural way, using local ingredients, keeping up with the season, and making about 90% of our products in-house.
+      <br><br>
+      Sometimes we get inspiration from old traditional Slovenian recipes, sometimes we take a different approach.
+      <br><br>
+      The main objective is that we are free … so the guest can be free as well.</p>
+    </div> 
+    <div class="servings">
+      <div class="course">
+        <p>For lunch, we serve a short tasting menu:
+          <li>3 courses - 35 €</li>
+          <li>4 courses - 59 €</li>
+        </p>
+      </div>
+      <div class="course">
+        <p>For dinner, we only serve a tasting menu, which changes very often.</p>
+      </div>
+      <div class="course">
+        <p>"Carte blanche" is a way to choose dishes based on the chef’s inspiration and a selection of fresh local ingredients.
+          <li>7-course menu - 110 €, wine pairing 40 €</li>
+          <li>9-course menu - 130€, wine pairing 50 €</li>
+        </p>
+      </div>
+    </div>
+  `
 
-  const items = document.createElement("p");
-  items.textContent = "Menu Page";
-  menu.appendChild(items);
+  const menuGallery = document.createElement("div");
+  menuGallery.classList.add("menu-gallery");
+  menu.appendChild(menuGallery);
+
+  function addImg(name) {
+    const img = document.createElement("img");
+    img.src = `${name}`;
+    img.alt = `${name}`;
+    return img;
+  } 
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food1_jpg__WEBPACK_IMPORTED_MODULE_0__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food2_jpg__WEBPACK_IMPORTED_MODULE_1__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food3_jpg__WEBPACK_IMPORTED_MODULE_2__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food4_jpg__WEBPACK_IMPORTED_MODULE_3__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food5_jpg__WEBPACK_IMPORTED_MODULE_4__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food6_jpg__WEBPACK_IMPORTED_MODULE_5__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food7_jpg__WEBPACK_IMPORTED_MODULE_6__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food8_jpg__WEBPACK_IMPORTED_MODULE_7__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food9_jpg__WEBPACK_IMPORTED_MODULE_8__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food10_jpg__WEBPACK_IMPORTED_MODULE_9__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food11_jpg__WEBPACK_IMPORTED_MODULE_10__));
+        
+    menuGallery.appendChild(
+      addImg(_assets_images_food12_jpg__WEBPACK_IMPORTED_MODULE_11__));
 
   return menu;
+}
+
+
+
+const loadMenu = () => {
+  const main = document.querySelector(".main");
+  main.textContent = '';
+  main.appendChild(createMenu());
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);
@@ -736,6 +921,136 @@ module.exports = __webpack_require__.p + "images/black-slate.jpg";
 
 /***/ }),
 
+/***/ "./src/assets/images/food1.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food1.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food1.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food10.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/food10.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food10.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food11.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/food11.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food11.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food12.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/food12.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food12.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food2.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food2.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food2.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food3.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food3.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food3.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food4.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food4.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food4.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food5.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food5.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food5.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food6.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food6.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food6.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food7.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food7.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food7.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food8.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food8.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food8.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/food9.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/food9.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/food9.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/interior1.jpg":
+/*!*****************************************!*\
+  !*** ./src/assets/images/interior1.jpg ***!
+  \*****************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/interior1.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/images/interior2.jpg":
 /*!*****************************************!*\
   !*** ./src/assets/images/interior2.jpg ***!
@@ -753,6 +1068,16 @@ module.exports = __webpack_require__.p + "images/interior2.jpg";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "images/logo.png";
+
+/***/ }),
+
+/***/ "./src/assets/images/wine.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/wine.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "images/wine.jpg";
 
 /***/ }),
 
@@ -922,13 +1247,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const contentContainer = document.querySelector("#content");
-
 
 const createHeader = () => {
   const header = document.createElement("header");
   header.classList.add("header");
-  contentContainer.appendChild(header);
 
   const restaurantName = document.createElement("h1");
   restaurantName.classList.add("h1");
@@ -947,7 +1269,6 @@ const createNav = () => {
   homeBtn.classList.add("nav-button");
   homeBtn.classList.add("active");
   homeBtn.textContent = "Home";
-  nav.appendChild(homeBtn);
   homeBtn.addEventListener('click', (e) => {
     if(e.target.classList.contains("active")) return;
     setActiveBtn(homeBtn);
@@ -957,7 +1278,6 @@ const createNav = () => {
   const menuBtn = document.createElement("button");
   menuBtn.classList.add("nav-button");
   menuBtn.textContent = "Menu";
-  nav.appendChild(menuBtn);
   menuBtn.addEventListener('click', (e) => {
     if(e.target.classList.contains("active")) return;
     setActiveBtn(menuBtn);
@@ -967,7 +1287,6 @@ const createNav = () => {
   const galleryBtn = document.createElement("button");
   galleryBtn.classList.add("nav-button");
   galleryBtn.textContent = "Gallery";
-  nav.appendChild(galleryBtn);
   galleryBtn.addEventListener('click', (e) => {
     if(e.target.classList.contains("active")) return;
     setActiveBtn(galleryBtn);
@@ -977,38 +1296,41 @@ const createNav = () => {
   const contactBtn = document.createElement("button");
   contactBtn.classList.add("nav-button");
   contactBtn.textContent = "Contact";
-  nav.appendChild(contactBtn);
   contactBtn.addEventListener('click', (e) => {
     if(e.target.classList.contains("active")) return;
     setActiveBtn(contactBtn);
     (0,_contact__WEBPACK_IMPORTED_MODULE_6__["default"])();
   })
 
+  nav.appendChild(homeBtn);
+  nav.appendChild(menuBtn);
+  nav.appendChild(galleryBtn);
+  nav.appendChild(contactBtn);
+
   return nav;
 }
 
-const navButtons = document.querySelectorAll(".nav-button");
+function setActiveBtn(button) {
+  const navButtons = document.querySelectorAll(".nav-button");
 
-navButtons.forEach(navButton => navButton.addEventListener('click', (e) => {
-  navButtons.forEach((navButton) => {
-    navButton.classList.remove("active");
-  })
+  navButtons.forEach((button) => {
+    if(button !== this) {
+      button.classList.remove("active");
+    }
+  });
 
-  if(e.target.classList.contains("active")) return;
+  button.classList.add("active");
+}
 
-  e.target.classList.add("active");
-  
-}));
-
-
-const createMain = () => {
-    (0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
+function createMain() {
+  const main = document.createElement("div");
+  main.classList.add("main");
+  return main;
 }
 
 const createFooter = () => {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
-  contentContainer.appendChild(footer);
 
     const socialMedia = document.createElement("div");
     socialMedia.classList.add("social");
@@ -1054,9 +1376,18 @@ const createFooter = () => {
   return footer;
 }
 
-createHeader();
-createMain();
-createFooter();
+
+function loadPage() {
+  const contentContainer = document.querySelector("#content");
+
+  contentContainer.appendChild(createHeader());
+  contentContainer.appendChild(createMain());
+  contentContainer.appendChild(createFooter());
+
+  (0,_home__WEBPACK_IMPORTED_MODULE_3__["default"])();
+}
+
+loadPage();
 
 
 
@@ -1065,4 +1396,4 @@ createFooter();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlefa41f911197088098e1e.js.map
+//# sourceMappingURL=bundle0440696a33d04aea56b5.js.map
