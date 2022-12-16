@@ -1,0 +1,45 @@
+.contact {
+  width: 40rem;
+  color: $text-color;
+  margin: 0 auto;
+  background-color: rgba($color: $background-color, $alpha: 0.3);
+
+  &-icons {
+    color: $text-color;
+    display: flex;
+  }
+
+  .title {
+    font-family: $highlight-font;
+    font-size: 2rem;
+    padding: 1.5rem;
+  }
+
+  .items {
+    display: flex;
+    flex-direction: column;
+
+
+    .containers {
+      display: flex;
+      margin-left: 1.5rem;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      align-items: center;
+
+      &-text {
+        font-size: 1.25rem;
+      }
+
+      .first-col {
+        width: 6rem;
+      }
+    }
+
+    .location {
+      max-height: 100%;
+    }
+  }
+
+
+}
