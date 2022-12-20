@@ -1,7 +1,7 @@
 @include media-sm {
   #content {
     header {
-      height: 7.5rem;
+      height: 8rem;
       padding: 0 1rem;
       flex-direction: column;
 
@@ -12,7 +12,8 @@
       }
 
       .nav {
-        padding: 1.5rem;
+        display: flex;
+        justify-content: center;
 
         &-button {
           margin: 1rem;
@@ -56,7 +57,8 @@
         margin-top: 0.5rem;
 
         .bar-img {
-          height: 50vh;
+          max-width: 90%;
+          height: 20rem;
         }
 
         .catchphrase {
@@ -104,8 +106,16 @@
       }
     }
 
-    .gallery > p {
-      font-size: 1rem;
+    .gallery {
+
+      margin-bottom: 1rem;
+      img {
+        height: 9rem;
+        width: 12rem;
+      }
+      p {
+        font-size: 1rem;
+      }
     }
 
     .contact {
@@ -119,9 +129,11 @@
 
       .items {
         .containers {
+          margin-left: 7rem;
 
           &-text {
             font-size: 1rem;
+
           }
 
           .first-col {

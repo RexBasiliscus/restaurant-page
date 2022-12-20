@@ -22,7 +22,8 @@ const createHeader = () => {
 };
 
 const createNav = () => {
-  const nav = document.createElement("nav");
+  const nav = document.createElement("div");
+  nav.classList.add("nav");
 
   const homeBtn = document.createElement("button");
   homeBtn.classList.add("nav-button");
