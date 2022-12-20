@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
-  justify-content: space-evenly;
+  justify-content: center;
 
   p {
     font-family: $highlight-font;
@@ -14,7 +14,7 @@
 
   img {
     height: 12rem;
-    width: 17rem;
+    width: 16rem;
     padding: 0.5rem;
     border-radius: 15%;
   }
