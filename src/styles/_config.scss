@@ -4,5 +4,20 @@
 $font-stack: 'Roboto', sans-serif;
 $highlight-font: 'Callie Chalk Font', sans-serif;
 $text-color: #fff;
-$highlight-color: #988349;
 $background-color: #000;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin transition-ease {
+  transition: all 0.3s ease-in;
+}
+
+@mixin media-sm {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
